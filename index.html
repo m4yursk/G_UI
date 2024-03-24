@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glaucoma Detection</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Glaucoma Detection</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#classifier">Classifier</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="py-5">
+    <div class="container">
+      <h1>Home</h1>
+      <p>Glaucoma, a group of eye diseases, silently damages the optic nerve, often due to pressure buildup within the eye. This pressure imbalance can lead to progressive vision loss and eventual blindness if left untreated. Early detection is crucial as glaucoma, particularly the most common form, develops slowly with minimal initial symptoms. Regular eye exams are key to catching vision loss before it becomes significant. While there's no cure, early diagnosis and treatment can help prevent further damage and protect your sight.</p>
+   <hr>
+   <h4>Vision</h4>
+      <p>Our project tackles glaucoma, a silent thief of sight, by leveraging the power of artificial intelligence (AI) to analyze retinal images. This approach goes beyond traditional methods, enabling us to objectively identify glaucoma risk factors within the intricate details of the retina. By predicting the possibility of glaucoma earlier, we empower healthcare professionals to intervene sooner, potentially preventing vision loss altogether. This translates to improved patient outcomes, as early detection allows doctors to tailor preventative measures and treatment plans for at-risk individuals.</p> 
+   <hr>
+        <h4>Project Aim</h4>
+    <p>Our project aims to predict glaucoma risk using cutting-edge deep learning algorithms applied to retinal images. This non-invasive approach offers the potential for earlier and more accurate detection compared to traditional methods. By identifying individuals at risk, we empower both patients and healthcare professionals to take proactive steps towards preserving vision.</p>
+    <p>•Predict glaucoma risk using advanced technology <br>•Empower patients and healthcare professionals with early detection.</p>    
+
+    <hr>
+     
+    <h4>A Word of Caution: Self-Diagnosis is Not Recommended </h4>
+    <p>While this project aims to raise awareness, it's important to remember that self-diagnosis is not recommended. If you experience any vision changes or suspect you might be at risk, schedule a comprehensive eye exam with a qualified ophthalmologist.</p>
+  
+
+    
+
+</div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2>About Us</h2>
+      <style>
+        .profile {
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 20px;
+          margin-bottom: 20px;
+          background-color: #f9f9f9;
+        }
+      
+        .profile h3 {
+          margin-top: 0;
+        }
+      
+        .profile p {
+          margin: 5px 0;
+        }
+      </style>
+      </head>
+      <body>
+      
+      <section id="about" class="py-5 bg-light">
+        <div class="container">
+          
+      
+          <div class="profile">
+            <h3>John Doe</h3>
+            <p>Email: john@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe/">John Doe</a></p>
+            <p>Phone: +1 (123) 456-7890</p>
+          </div>
+      
+          <div class="profile">
+            <h3>Jane Smith</h3>
+            <p>Email: jane@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/janesmith/">Jane Smith</a></p>
+            <p>Phone: +1 (234) 567-8901</p>
+          </div>
+      
+          <div class="profile">
+            <h3>Michael Johnson</h3>
+            <p>Email: michael@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/michaeljohnson/">Michael Johnson</a></p>
+            <p>Phone: +1 (345) 678-9012</p>
+          </div>
+      
+          <div class="profile">
+            <h3>Sarah Brown</h3>
+            <p>Email: sarah@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sarahbrown/">Sarah Brown</a></p>
+            <p>Phone: +1 (456) 789-0123</p>
+          </div>
+        </div>
+      </section>
+      
+      </body>
+      </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-5">
+    <div class="container">
+      <h2>Blog</h2>
+      <style>
+        /* Basic CSS for Blog Section */
+        .blog-section {
+          padding: 50px 0;
+          background-color: #f9f9f9;
+        }
+      
+        .blog-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 30px;
+        }
+      
+        .blog-item {
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 20px;
+          background-color: #fff;
+        }
+      
+        .blog-title {
+          font-size: 20px;
+          margin-bottom: 10px;
+          text-decoration: none;
+          color: #333; /* Change link color as needed */
+          display: block;
+        }
+      
+        .blog-title:hover {
+          text-decoration: underline;
+        }
+      
+        .blog-content {
+          font-size: 14px;
+        }
+      </style>
+      </head>
+      <body>
+      
+      <section class="blog-section">
+        <div class="container">
+          
+      
+          <div class="blog-container">
+            <!-- Blog 1 -->
+            <div class="blog-item">
+              <h3 class="blog-title"><a href="article1.html">Blog Title 1</a></h3>
+              <p class="blog-content">Content related to eye or related articles...</p>
+            </div>
+      
+            <!-- Blog 2 -->
+            <div class="blog-item">
+              <h3 class="blog-title"><a href="article2.html">Blog Title 2</a></h3>
+              <p class="blog-content">Content related to eye or related articles...</p>
+            </div>
+      
+            <!-- Blog 3 -->
+            <div class="blog-item">
+              <h3 class="blog-title"><a href="article3.html">Blog Title 3</a></h3>
+              <p class="blog-content">Content related to eye or related articles...</p>
+            </div>
+      
+            <!-- Blog 4 -->
+            <div class="blog-item">
+              <h3 class="blog-title"><a href="article4.html">Blog Title 4</a></h3>
+              <p class="blog-content">Content related to eye or related articles...</p>
+            </div>
+      
+            <!-- Blog 5 -->
+            <div class="blog-item">
+              <h3 class="blog-title"><a href="article5.html">Blog Title 5</a></h3>
+              <p class="blog-content">Content related to eye or related articles...</p>
+            </div>
+      
+            <!-- Blog 6 -->
+            <div class="blog-item">
+              <h3 class="blog-title"><a href="article6.html">Blog Title 6</a></h3>
+              <p class="blog-content">Content related to eye or related articles...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      </body> </div>
+  </section>
+
+  <!-- Classifier Section -->
+  <section id="classifier" class="py-5 bg-light">
+    <div class="container">
+      <h2>Classifier</h2>
+      <h4>Glaucoma: A Global Threat to Vision</h4>
+
+      <p>Did you know glaucoma is a leading cause of irreversible blindness worldwide? Millions of people are affected, with some regions facing a higher prevalence than others.Early detection is crucial to prevent vision loss, so let's delve deeper into understanding this silent thief of sight.</p>
+         
+      <img src="graph_1.png" style="max-width: 500px; max-height: 500px;">
+
+         <p><strong>-year on year growth of vision loss and blindness</strong> </p>
+               <h4>What is Glaucoma and How Does it Affect You?</h4>
+      
+      <p>Imagine the optic nerve as the crucial cable connecting your eye to the brain, transmitting the information you see. Glaucoma damages this nerve, often due to increased pressure within the eye (intraocular pressure).The insidious nature of glaucoma lies in its gradual progression. Often, there are minimal initial symptoms, leading to delayed diagnosis and potentially permanent vision loss.</p>
+         
+         
+            <h4>Benefits of Early Glaucoma Detection</h4>
+            <p> •Significantly slow vision loss by catching the disease before it progresses.<br>
+                •Lead to better treatment outcomes with more options available to prevent vision loss altogether.<br>
+                •Offer peace of mind through proactive eye care and potential cost savings** in the long run by avoiding expensive interventions later.</p>
+            <hr>
+
+            <form id="uploadForm">
+        <div class="form-group">
+          <label for="fileUpload">Upload File:</label>
+          <input type="file" class="form-control-file" id="fileUpload">
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contact</h2>
+      <style>
+        /* Basic CSS for Contact Section */
+        .contact-section {
+          padding: 50px 0;
+          background-color: #f9f9f9;
+          text-align: center;
+        }
+      
+        .contact-heading {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+      
+        .contact-info {
+          margin-bottom: 30px;
+        }
+      
+        .contact-info p {
+          margin: 10px 0;
+        }
+      
+        .contact-form {
+          max-width: 400px;
+          margin: 0 auto;
+        }
+      
+        .contact-form input,
+        .contact-form textarea {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+      
+        .contact-form button {
+          width: 100%;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: #fff;
+          cursor: pointer;
+        }
+      
+        .contact-form button:hover {
+          background-color: #0056b3;
+        }
+      </style>
+      </head>
+      <body>
+      
+      <section class="contact-section">
+        <div class="container">
+          <h2 class="contact-heading">Contact Us</h2>
+      
+          <div class="contact-info">
+            <p>Email: example@example.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            
+          </div>
+      
+          <div class="contact-form">
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      </body> </div>
+  </section>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
